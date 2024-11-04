@@ -279,7 +279,7 @@ class CHAIR(object):
 
 def load_generated_captions(cap_file):
     caps = []
-    imids = {}
+    imids = set({})
 
     try:
         with open(cap_file, 'r') as f:
