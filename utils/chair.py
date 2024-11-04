@@ -4,7 +4,7 @@ import nltk
 import json
 from pattern.en import singularize
 import argparse
-from misc import *
+import os
 
 lemma = nltk.wordnet.WordNetLemmatizer()
 
