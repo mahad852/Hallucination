@@ -291,7 +291,7 @@ def load_generated_captions(cap_file):
             imids.add(cap["image_id"])
 
     except:
-        raise Exception("Expect caption file to consist of a dectionary with sentences correspdonding to the key 'imgToEval'")
+        raise Exception("Expect caption file to consist of a dectionaries with sentences correspdonding to the key 'image_id'")
 
     return caps, imids
 
